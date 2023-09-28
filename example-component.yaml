@@ -17,3 +17,7 @@ spec:
   type: library
   owner: mchum
   lifecycle: experimental
+  subcomponentOf:
+    - backstage
+  providesApis:
+    - example-api
