@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-frontend
+  description: |
+    Example frontend component
+spec:
+  type: website
+  owner: example-team
+  lifecycle: experimental
+  dependsOn:
+    - component:default/example-backend
+

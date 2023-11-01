@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-all
+  description: A collection of all example entities
+spec:
+  targets:
+    - ./apis/*.yaml
+    - ./components/*.yaml
+    - ./groups/*.yaml
+    - ./resources/*.yaml
+    - ./users/*.yaml

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-backend
+  description: |
+    Example backend component
+spec:
+  type: service
+  owner: example-team
+  lifecycle: experimental
+  dependsOn:
+    - resource:default/example-db
+    - resource:default/example-bucket
